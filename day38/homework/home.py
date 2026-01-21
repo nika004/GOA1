@@ -1,0 +1,1 @@
+print("w3school")

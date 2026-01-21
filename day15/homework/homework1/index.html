@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--name ატრიბუტი გამოიყენება იმისთვის რომ სერვერს გადავცეთ ჩვენი მონაცემები რაიმე სახელით-->
+<!-- value გამოიყენება როგორც name სერვერს გადავცემთ ჩვენ მონაცემებს რაიმე სახელით-->
+<!-- disabled გამოიყენება როცა გვინდა გავაუქმოთ და ვერ ავირჩევთ მონაცემს-->
+<!-- selected გამოიყენება როდესაც გვინდა თავიდანვე არჩეული იყოს -->
+
+    <form>
+        <label for="country">ქვეყანა:</label>
+        <select name="country" id="country" required>
+            <option value="georgia">საქართველო</option>
+            <option value="usa">აშშ</option>
+            <option value="germany">გერმანია</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="firstname">სახელი:</label>
+        <input type="text" id="firstname" name="firstname" required placeholder="თქვენი სახელი">
+        <br>
+        <br>
+
+        <label for="lastname">გვარი:</label>
+        <input type="text" id="lastname" name="lastname" required placeholder="თქვენი გვარი">
+        <br>
+        <br>
+
+        <button>დადასტურება</button>
+
+    </form>
+
+
+    
+</body>
+</html>

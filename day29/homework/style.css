@@ -1,0 +1,23 @@
+body{
+    background-color: burlywood;
+    
+}
+img{
+    height: 300px;
+}
+p{
+    color: rgb(0, 110, 255);
+    font-size: 20px;
+}
+button{
+    background-color: cadetblue;
+    border: none;
+}
+h1{
+    text-align: center;
+    color: rgb(53, 53, 65);
+    
+}
+#a{
+    color: black;
+}

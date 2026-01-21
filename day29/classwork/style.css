@@ -1,0 +1,39 @@
+#a{
+  background-color: rgb(240, 172, 172);
+  color: rgb(234,125,60);
+
+}
+#b{ 
+  background-color: rgb(247, 54, 54);
+  color: rgb(150, 148, 146);
+}
+#c{
+  background-color: rgb(27, 33, 103);
+  color: rgb(35, 18, 8);
+}
+.group1{
+    color: rgb(rgb(212, 38, 38));
+}
+.group2{
+    color: #ff12ff;
+}
+#perent{
+
+    width: 1000px;
+    height: 700px;
+}
+#child{
+    background-color: aqua;
+    width: 50%;
+    height: 350px;
+}
+#perent1{
+
+    width: 50%;
+    height: 700px;
+}
+#child1{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,16 @@
+button:hover{
+    background-color: red;
+    
+}
+button{
+    background-color: aqua;
+}
+h1:hover{
+    border: 2px solid;
+}
+h1{
+    color: chocolate;
+}
+body{
+    background-color: aqua;
+}

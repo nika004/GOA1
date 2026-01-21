@@ -1,0 +1,22 @@
+table{
+    width: 300px;
+}
+th,td{
+    font-weight: 100;
+}
+#tab{
+    width: 500px;
+    border-collapse: collapse;
+    height: 100px;
+    
+
+}
+.tablehead{
+    background-color: orange;
+    
+
+}
+.tablerow{
+    background-color: yellow;
+    font-weight: 100;
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: coral;
+}
+h1{
+    text-shadow: 5px 5px 4px;
+    text-decoration: overline;
+}
+.lastname{
+    text-decoration: overline;
+}
+.name{
+    text-decoration: underline;
+}

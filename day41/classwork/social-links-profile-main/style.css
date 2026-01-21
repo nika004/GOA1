@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+div{
+    background-color: rgb(34, 33, 33);
+    width: 550px;
+    height: 800px;
+    border-radius: 9px;
+
+
+}
+img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+h1{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+h2{
+    color: yellowgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 0px;
+    padding: 0px;
+}
+
+#h21{
+    color: rgb(182, 182, 182);
+
+}
+
+button{
+    width: 450px;
+    height: 60px;
+    font-size: large;
+    background-color: rgb(46, 45, 45);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}

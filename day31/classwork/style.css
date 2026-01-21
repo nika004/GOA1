@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+
+p{
+    text-shadow: 5px 6px 3px;
+}
+.lower{
+    text-transform: lowercase;
+}
+.upper{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}

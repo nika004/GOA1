@@ -1,0 +1,43 @@
+button{
+    border: 3px;
+    padding: 10px;
+    margin: 40px; 
+}
+
+body{
+    background-color: blue;
+}
+#a{
+    border: 5px solid rgb(37, 36, 36) ;
+    padding: 13px;
+    margin: 70px;
+}
+#b{
+    border: 5px solid rgb(92, 22, 22) ;
+    padding: 16px;
+    margin: 55px;
+}
+#c{
+    border: 5px solid rgb(17, 57, 109) ;
+    padding: 9px;
+    margin: 50px;
+}
+#d{
+    border: 5px solid rgb(10, 158, 35) ;
+    padding: 10px;
+    margin: 73px;
+}
+#e{
+    border: 5px solid rgb(126, 175, 10) ;
+    padding: 14px;
+    margin: 60px;
+}
+
+#container{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT ME</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="register.html">REGISTER</a>
+    </nav>
+
+       <h1>რეგისტრაცია</h1>
+
+    <form>
+
+        <label for="firstname">სახელი: </label>
+        <input type="text" id="firstname" name="firstname" placeholder="შეიყვანეთ თქვენი სახელი" required>
+        <br>
+        <br>
+
+        <label for="lastname">გვარი: </label>
+        <input type="text" id="lastname" name="lastname" placeholder="შეიყვანეთ თქვენი გვარი" required>
+        <br>
+        <br>
+
+        <label for="email">ელ-ფოსტა: </label>
+        <input type="email" id="email" name="email" placeholder="შეიყვანე ემაილი" required>
+        <br>
+        <br>
+
+        <label for="password">პაროლი: </label>
+        <input type="password" id="password" name="password"  placeholder="შეიყვანეთ პაროლი" required>
+        <br>
+        <br>
+
+        <label for="age">ასაკი: </label>
+        <input type="number" id="age" name="age" placeholder="შეიყვანეთ ასაკი" required>
+        <br>
+        <br>
+
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">კაცი</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">ქალი</label>
+        <br>
+        <br>
+
+        <label for="country">ქვეყანა:</label>
+        <select name="country" id="country" required>
+            <option value="georgia">საქართველო</option>
+            <option value="usa">აშშ</option>
+            <option value="uk">ბრიტანეთი</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="color">საყვარელი ფერი:</label>
+        <input type="color" id="color" name="favorite_color">
+         <br>
+         <br>
+
+        <label for="phone">ტელეფონის ნომერი:</label>
+        <input type="number" id="phone" name="phone" placeholder="შეიყვანეთ ნომერი" required>
+        <br>
+        <br>
+
+        <button>submit</button>
+
+    </form>
+</body>
+</html>
