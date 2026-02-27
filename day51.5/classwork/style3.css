@@ -1,0 +1,37 @@
+div{
+    margin: 300px;
+    margin-top:  600px;
+    background-color: #FF9700;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: sircle 2s infinite;
+}
+@keyframes sircle{
+    0%{
+        width: 100px;
+        height: 100px;
+        transform: translateX() ;
+    }
+    25%{
+
+
+
+    }
+    50%{
+
+
+
+    }
+    75%{
+
+
+
+    }
+    100%{
+
+
+
+    }
+    
+}

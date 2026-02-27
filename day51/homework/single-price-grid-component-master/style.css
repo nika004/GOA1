@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.par{
+    font-family: "Karla", sans-serif;
+    background-color: #E6EFF6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.par2{
+    display: grid;
+    overflow: hidden;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr;
+    height: 450px;
+    width: 700px;
+    grid-template-rows: 1fr 1fr;
+
+}
+.ch1{
+    background-color: white;
+    grid-column: 1 / 3;
+
+}
+.ch1 h3{
+    color: #cee65b;
+
+}
+.ch1 p{
+    color: gray;
+
+}
+
+.ch1 h2{
+    color: #72BCBB;
+}
+
+.ch2{
+    background-color: #2BB3B1;
+}
+.ch3{
+    background-color:#4ABEBD;
+}
+
+.ch1 ,.ch2 ,.ch3{
+    padding: 40px;
+
+}
+.ch2 h2, h1, h4, button{
+    color: white;
+}
+.ch2 span{
+    color: rgb(221, 215, 215);
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.ch2 button{
+    font-family: "Karla", sans-serif;
+    background-color: #BFDF32;
+    width: 240px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+
+}
+.ch3 h2{
+    color: white;
+}
+.ch3 p{
+    color: rgb(221, 215, 215);
+    font-size: 14px;
+}

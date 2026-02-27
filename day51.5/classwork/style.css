@@ -1,0 +1,18 @@
+.circle {
+    margin-top: 360px;
+    background: #89CFF0;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: 220px;
+}
+.circle:active{
+    transition: 2s;
+    translate: 1200px;
+    width: 360px;
+    height: 360px;
+
+    
+
+
+}

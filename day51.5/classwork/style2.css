@@ -1,0 +1,33 @@
+#div {
+    margin-top: 600px;
+    margin-right: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: #3FB2FF;
+    border-radius: 50%;
+    animation: sircle1 2s infinite;
+}
+
+@keyframes sircle1 {
+    0% {
+        transform: translateX(-300px);
+        scale: (0.5);
+        
+    }
+
+    50% {
+        transform: translateY(-500px);
+        scale: (1);
+        width: 400px;
+        height: 400px;
+    }
+
+    100% {
+        transform: translateY(300px);
+        transform: translateX(500px);
+        scale: (0.5);
+    }
+
+
+
+}
